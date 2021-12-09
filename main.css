@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -8,9 +9,50 @@ h1 {
     font-size: 48px;
     font-weight: 900px;
 }
-.header,
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
 .top {
     background-color: #1F2937;
     color: #F9FAF8;
     margin: 0px;
+    padding-left: 120px;
+    padding-right: 120px; 
+}
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    flex: 1;
+}
+.logo {
+    
+}
+.links {
+    display: flex;
+}
+.top {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.start1 {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.start2 {
+    display: flex;
+    background-color: grey;
+    border: 5px bold white;
+    color: white;
+    width: 200px;
 }
