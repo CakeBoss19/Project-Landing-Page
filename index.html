@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="second.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nokora&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../CSS-RESET.css">
+	<link rel="stylesheet" href="./second.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
 </head>
 <body>
-    <div class="header">
+
+    <header>
         <div class="logo">Header Logo</div>
         <div class="links">
             <ul>
-                <li><a href="google.com">header link one</a></li>
-                <li><a href="google.com">header link two</a></li>
-                <li><a href="google.com">header link three</a></li>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
             </ul>
         </div> 
-    </div>
-    <div class="hero">
+    </header>
+
+    <section id="hero">
         <div class="hero1">
-            <div class="heromain">This website is awesome</div>
-            <div class="herosecond">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-            <button class="button1">Sign up</button>
+            <h1>This website is awesome</h1>
+            <p class="description">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button type="submit" class="sign-up">Sign up</button>
         </div>
         <div class="hero2">
             <p>this is a placeholder for an image</p>
         </div>
-    </div>
-    <div class="information">  
-        <div class="title">Some Random Information</div>
+    </section>
+
+    <section id="information">  
+        <h2>Some Random Information</h2>
         <div class="content">
             <div class="item">
                 <div class="box"></div>
@@ -48,23 +57,26 @@
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
         </div>
-    </div>
-    <div class="quotesection">
+    </section>
+
+    <section id="quotesection">
         <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
         <div class="thor">-Thor, God of Thunder</div>
-    </div>
-    <div class="action">
+    </section>
+
+    <section id="action">
         <div class="left">
-            <div class="call">Call to action! It's time!</div>
-            <div class="sign">Sign up for our product by clicking that button right over there!</div>
+            <h2>Call to action! It's time!</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
         </div>
         <div class="right">
-            <button class="button2">Sign up</button>
+            <button class="sign-up" type="submit" >Sign up</button>
         </div>
-    </div>
-    <div class="footer">
+    </section>
+
+    <footer>
         Copyright c The Odin Project 2021
-    </div>
+    </footer>
 </body>
 </html>
 
